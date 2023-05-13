@@ -13,5 +13,6 @@ REM ssh-keygen -R %TARGET_HOST%
 REM ssh-keyscan -H %TARGET_HOST% >> known_hosts
 REM popd
 
+git add .
 git commit -am"comment"
 git push -u origin main
