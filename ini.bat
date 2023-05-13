@@ -1,4 +1,4 @@
-echo "# lege" >> README.md
+REM echo "# lege" >> README.md
 REM git init
 REM git add .
 REM git commit -m "first commit"
