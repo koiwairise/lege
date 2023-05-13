@@ -14,5 +14,7 @@ REM ssh-keyscan -H %TARGET_HOST% >> known_hosts
 REM popd
 
 git add .
+:ignore git.ignore file
+git add -f *.mp4
 git commit -am"comment"
 git push -u origin main
